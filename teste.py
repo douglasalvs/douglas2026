@@ -13,7 +13,11 @@ col1, col2, col3 = st.columns(3)
 # TESLA
 # =========================
 with col1:
-    st.image("tesla.png")
+    st.image(
+        "https://upload.wikimedia.org/wikipedia/commons/e/e8/Tesla_logo.png",
+        width=200
+    )
+
     st.subheader("⚡ Tesla")
 
     st.write("""
@@ -27,7 +31,11 @@ with col1:
 # SAMSUNG
 # =========================
 with col2:
-    st.image("samsung.png")
+    st.image(
+        "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
+        width=200
+    )
+
     st.subheader("📱 Samsung")
 
     st.write("""
@@ -41,7 +49,11 @@ with col2:
 # SPOTIFY
 # =========================
 with col3:
-    st.image("spotify.png")
+    st.image(
+        "https://upload.wikimedia.org/wikipedia/commons/1/19/Spotify_logo_without_text.svg",
+        width=150
+    )
+
     st.subheader("🎵 Spotify")
 
     st.write("""
