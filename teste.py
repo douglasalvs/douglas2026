@@ -32,8 +32,8 @@ with col1:
 # =========================
 with col2:
     st.image(
-        "https://upload.wikimedia.org/wikipedia/commons/2/24/Samsung_Logo.svg",
-        width=200
+        "https://logos-world.net/wp-content/uploads/2020/04/Samsung-Logo.png",
+        width=220
     )
 
     st.subheader("📱 Samsung")
