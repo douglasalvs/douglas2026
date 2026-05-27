@@ -13,7 +13,6 @@ col1, col2, col3 = st.columns(3)
 # TESLA
 # =========================
 with col1:
-    st.image("tesla.png")
     st.subheader("⚡ Tesla")
 
     st.write("""
@@ -27,7 +26,6 @@ with col1:
 # SAMSUNG
 # =========================
 with col2:
-    st.image("samsung.png")
     st.subheader("📱 Samsung")
 
     st.write("""
@@ -41,7 +39,6 @@ with col2:
 # SPOTIFY
 # =========================
 with col3:
-    st.image("spotify.png")
     st.subheader("🎵 Spotify")
 
     st.write("""
@@ -50,4 +47,3 @@ with col3:
     """)
 
     st.link_button("Acessar Site", "https://www.spotify.com/br/")
-
